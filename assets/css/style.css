@@ -216,12 +216,52 @@ body {
     border: 0 none;
   }
 
-  @media screen and (max-width:959px) {
-    #container{
+  @media screen and (max-width:980px) {
+    .container {
       width:100%
     }
-  }
-  
-  @media screen and (max-width:640px) {
+
+    .main-section {
+      width:100%
+    }
+
+    .masthead {
+      width:100%
+    }
+
+    .work img {
+      width:100%
+    }
 
   }
+  
+  @media screen and (max-width:768px) {
+    .container {
+      width:100%
+    }
+
+    .masthead {
+      width:100%
+    }
+
+    .work img {
+      width:100%
+    }
+
+  }
+
+  @media screen and (max-width:640px) {
+    .container {
+      width:100%
+    }
+
+    .masthead {
+      width:100%
+    }
+
+    .work img {
+      width:100%
+    }
+
+  }
+
